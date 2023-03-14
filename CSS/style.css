@@ -1,0 +1,148 @@
+body {
+  margin: auto;
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+  background-image: url('file:C:/Users/nohel/Desktop/practice%20coding/order-summary-component-main/order-/images/bg-desktop.svg');
+}
+
+/*TOP SECTION*/
+.container-fluid{
+  margin: auto;
+  padding-top: 50px;
+  width: 23rem;
+}
+
+.card{
+  border-radius: 15px;
+  height:33rem;
+}
+
+.card-img-top{
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.card-title{
+ font-weight: 900;
+ font-size: 20px;
+ color:hsl(223, 47%, 23%);
+ padding-top: 25px;
+}
+
+
+
+
+/*MIDDLE SECTION*/
+
+.row{
+  border-radius: 10%;
+  margin-bottom: 45px;
+  width: 250px;
+  height: 80px;
+  position: relative;
+  left: 60px;
+  background-color: hsl(225, 100%, 98%);
+}
+
+}
+
+ul{
+  list-style:none;
+}
+
+
+.card-text{
+  color: hsl(224, 23%, 55%);
+  font-size: 12px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 600;
+  padding: 8px 22px;
+}
+
+
+
+.col{
+  height: 80px;
+}
+
+.img-col{
+  width: 64px;
+padding-right: 0px;
+padding-left: 0px;
+}
+}
+
+svg{
+  margin-top:10px;}
+
+.text-1{
+  margin-right: 30px;
+  margin-bottom: 5px;
+  margin-top:12px;
+  font-size: 12px;
+  font-weight: 600;
+  color:hsl(223, 47%, 23%);
+  white-space: nowrap;
+}
+
+.price{
+  margin-right: 30px;
+  color:hsl(224, 23%, 55%);
+  font-weight: 600;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.link-col{
+  padding-top:15px;
+}
+
+
+a{
+  color:hsl(245, 75%, 52%);
+  font-size: 11px;
+  font-weight: 900;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+a:hover{
+  color:hsl(224, 23%, 55%);
+}
+
+
+/*FOOT SECTION*/
+
+.btn{
+  bottom: 25px;
+  font-size: 14px;
+  width: 250px;
+  position: relative;
+  left:50px;
+  background-color:hsl(245, 75%, 52%);
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+}
+
+.btn:hover{
+  background-color:hsl(224, 23%, 55%);
+  border-color: hsl(224, 23%, 55%);
+}
+
+.cancel-text{
+  color:hsl(224, 23%, 55%);
+  position: relative;
+  bottom: 10px;
+  font-size:12px;
+  font-weight: 900;
+}
+
+.cancel-text:hover{
+  color:hsl(223, 47%, 23%);
+}
+
+@@media (max-width:375px) {
+
+ body{background-image: url('file:C:/Users/nohel/Desktop/practice%20coding/order-summary-component-main/order-/images/bg-mobile.svg');
+}}
+}
