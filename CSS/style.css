@@ -2,7 +2,7 @@ body {
   margin: auto;
   font-family: 'Red Hat Display', sans-serif;
   text-align: center;
-  background-image: url('images/bg-desktop.svg');
+  background-image: url("order-summary/images/bg-desktop.svg");
 }
 
 /*TOP SECTION*/
@@ -143,6 +143,6 @@ a:hover{
 
 @@media (max-width:375px) {
 
- body{background-image: url(images/bg-mobile.svg');
+ body{background-image: url("order-summary/images/bg-mobile.svg");
 }}
 }
